@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #343a40;
+}
+
+html{
+    font-size: 62.5%;  /* = 10px */
+}
+
+h1{
+    background-color: #212529;
+    height: 15vh;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    color: #f35b04;
+}
+
+
+/*  */
+
+
+.container{
+    max-width: 80rem;
+    margin:0 auto;
+}
+
+main{
+    padding: 0 0 7rem 0;
+}
+
+h2{
+    text-align: center;
+    padding: 3rem;
+    font-size: 2.8rem;
+    color: #e0e1dd;
+}
+
+.message{
+    text-align: center;
+    font-size: 2.3rem;
+    color:#d3d3d3;
+    margin-bottom: 4rem;
+}
+
+
+.img-arena{
+    width: 30%;
+    margin-bottom: 2rem;
+    
+}
+
+.arena-section{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.player-section{
+    justify-self: end;
+
+}
+.computer-section{
+    justify-self: end;
+}
+
+.player-info{
+    font-size: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.choices-container{
+    margin-top: 4rem;
+    max-width: 60rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap:2rem;
+    padding-left: 10rem;
+    
+}
+
+.btn{
+    width: 15rem;
+    height: 15rem;
+   
+}
+.img{
+    width:15rem;
+}
+
+/* footer */
+
+.copyright{
+    height:4rem;
+    /* background-color: red; */
+    text-align: center;
+    color:#d3d3d3;
+    font-size: 2rem;
+}
