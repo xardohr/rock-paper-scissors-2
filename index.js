@@ -96,7 +96,7 @@ paperBtn.addEventListener("click", function(){
 scissorsBtn.addEventListener("click", function(){
     computerSelection = getComputerChoice();
     arenaSection.style.marginLeft = "15rem"
-    playerSelection = "rock";
+    playerSelection = "scissors";
     computerArena.src = `${computerSelection}.png`
     playerArena.src = `${playerSelection}.png`
     playRound(playerSelection, computerSelection);
