@@ -50,7 +50,8 @@ h2{
 }
 
 
-.img-arena{
+.img-arena-player,
+.img-arena-computer{
     width: 30%;
     margin-bottom: 2rem;
     
@@ -60,6 +61,7 @@ h2{
     /* background-color: aqua; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 15rem;
 
 }
 .player-section{
@@ -96,6 +98,15 @@ h2{
     width:15rem;
 }
 
+.again{
+    width: 30rem;
+    height: 5rem;
+    font-weight: bold;
+    margin-left: 18rem;
+    margin-top: 4rem;
+    
+}
+
 /* footer */
 
 .copyright{
@@ -104,4 +115,12 @@ h2{
     text-align: center;
     color:#d3d3d3;
     font-size: 2rem;
+}
+
+
+
+/* hidden */
+
+.hidden{
+    display: none;
 }
