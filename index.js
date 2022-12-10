@@ -105,6 +105,7 @@ againBtn.addEventListener("click",function(){
     playRound(playerSelection, computerSelection);
     playerScore = 0;
     computerScore = 0;
+    message.textContent =``
     computerScoreEl.textContent = computerScore;
     playerScoreEl.textContent = playerScore;
     selectorBtn.forEach(function(btn){
